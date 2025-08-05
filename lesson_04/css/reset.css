@@ -1,0 +1,66 @@
+/* Обнуляем отступы и поля для всех элементов */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+/* Ссылки без подчёркивания, наследуют цвет */
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+/* Списки без маркеров */
+ul, ol {
+  list-style: none;
+}
+
+/* Картинки выравниваются по верхнему краю */
+img {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Заголовки и параграфы обнуляем */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/* HTML и BODY на всю высоту экрана */
+html, body {
+  height: 100%;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+/* Таблицы без отступов и границ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Формы без стандартных стилей */
+input, button, textarea, select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Убираем выделение при нажатии на мобильных */
+a, button {
+  -webkit-tap-highlight-color: transparent;
+}
