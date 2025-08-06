@@ -1,66 +1,75 @@
-/* Обнуляем отступы и поля для всех элементов */
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
 }
 
-/* Ссылки без подчёркивания, наследуют цвет */
+*::before,
+*::after {
+    display: inline-block;
+}
+
 a {
-  text-decoration: none;
-  color: inherit;
-  display: inline-block;
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
 }
 
-/* Списки без маркеров */
+li {
+    /* list-style: none; */
+}
 ul, ol {
-  list-style: none;
+    padding-left: 20px; /* або більше */
 }
-
-/* Картинки выравниваются по верхнему краю */
 img {
-  vertical-align: top;
-  max-width: 100%;
-  height: auto;
+    vertical-align: top;
 }
 
-/* Заголовки и параграфы обнуляем */
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-  font-weight: inherit;
-  font-size: inherit;
+html,
+body {
+    line-height: 1;
+    height: 100%;
 }
 
-/* HTML и BODY на всю высоту экрана */
-html, body {
-  height: 100%;
-  line-height: 1;
-  font-family: sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
 }
 
-/* Таблицы без отступов и границ */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+/* FORM */
+input,
+button,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    background-color: transparent;
 }
 
-/* Формы без стандартных стилей */
-input, button, textarea, select {
-  font: inherit;
-  color: inherit;
-  background: none;
-  border: none;
-  outline: none;
+input,
+textarea {
+    width: 100%;
 }
 
-button {
-  cursor: pointer;
+button,
+select,
+option {
+    cursor: pointer;
 }
 
-/* Убираем выделение при нажатии на мобильных */
-a, button {
-  -webkit-tap-highlight-color: transparent;
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    appearance: none;
 }
+
