@@ -1,0 +1,213 @@
+@import url("reset.css");
+
+
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,400,500,700,800);
+body{
+    background-color: #141414;
+}
+.box{
+    width: 800px;
+    height: 809px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    border-radius: 30px;
+    margin-top: 50px;
+    padding-top: 50px;
+}    
+.info{
+    margin: 50px;
+    width: 520px;
+    height: 253px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.info h1{
+    margin: 10px;
+     font-family:Manrope ;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 133%;
+    margin-inline: 50px;
+}
+.info p{
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    color: #99c0ec;
+    margin-inline: 50px;
+}
+.block{
+    display: inline-block; /* робимо блоки інлайн */
+    vertical-align: top;   /* вирівнюємо по верхньому краю */
+    width: 245px;
+    height: 138px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px; 
+    background-color: rgb(255, 255, 255);
+}
+.block h2{
+    font-family:Manrope;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 163%;
+    color: #1b242e;
+}
+.block p{
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #4b4f5c;
+    
+}
+.inline-block{
+     font-size: 0; /* прибирає відступи між inline-block */
+    margin: 20px;
+}
+
+
+.section{
+    width: 539px;
+    height: 421px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 30px;
+    
+}
+.title h3{
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 132%;
+    letter-spacing: 0.02em;
+    color: #08052e;
+}
+.title p{
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: #384694;
+}
+.title{
+    margin-bottom:20px ;
+}
+.aside{
+    display:inline-block;
+    vertical-align: top;
+    border-radius: 2px;
+    width: 189px;
+    height: 36px;
+    background-color: #252d5e;
+    color: white;
+    padding: 5px;
+}
+.aside h4{
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 163%;
+    text-align: center;
+}
+.content{
+    display:inline-block;
+    vertical-align: top;
+    border: 2px solid #08052e;
+    border-radius: 2px;
+    width: 189px;
+    height: 36px;
+
+}
+.row {
+
+    /* display: flex;
+    gap: 20px; 
+    align-items: center;  */
+}
+.content h5{
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 163%;
+    text-align: center;
+    color: #08052e;
+}
+
+
+
+  .sidebar{
+    width: 1597px;
+    height: 801px;
+    background-color: #141414;
+}
+.sidebar h6{
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 150%;
+    color: white;
+    padding-bottom: 20px;
+}
+.sidebar p{
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgb(80, 78, 78);
+    padding-bottom: 80px;
+}
+.blocks{
+    display:inline-block;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-radius: 12px;
+    padding: 50px;
+    width: 512px;
+    height: 283px;
+}
+.img-block {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 16px;
+    border: 1px solid #302e2e;
+    border-radius: 12px;
+    padding: 16px;
+    width: 72px;
+    height: 72px;
+    text-align: center;
+    }
+.img-block img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.box3{
+    width: 412px;
+    height: 72px;
+    padding: auto;
+}
+.box3 span {
+    display: inline-block;
+    vertical-align: middle; 
+    color: white;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.blocks p{
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgb(85, 82, 82);
+}
+.blocks-container{
+     font-size: 0;        
+}  
+   
+
+
+
