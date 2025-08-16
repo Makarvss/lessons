@@ -3,7 +3,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Manrope:200,300,400,500,700,800);
 body{
-    background-color: #141414;
+    background-color: #6e5a5a;
 }
 .box{
     width: 800px;
@@ -13,6 +13,7 @@ body{
     border-radius: 30px;
     margin-top: 50px;
     padding-top: 50px;
+    margin-left:60px ;
 }    
 .info{
     margin: 50px;
@@ -65,26 +66,30 @@ body{
 .inline-block{
      font-size: 0; /* прибирає відступи між inline-block */
     margin: 20px;
+    margin-left: 80px;
 }
 
 
 .section{
-    width: 539px;
-    height: 421px;
+    width: 660px;
+    height: 340px;
     background-color: white;
     border-radius: 20px;
     margin: 30px;
     
 }
 .title h3{
+    margin-left: 10px;
     font-family: Manrope;
     font-weight: 500;
     font-size: 50px;
     line-height: 132%;
     letter-spacing: 0.02em;
     color: #08052e;
+    margin-bottom:20px ;
 }
 .title p{
+    margin-left: 10px;
     font-family: Manrope;
     font-weight: 400;
     font-size: 18px;
@@ -95,6 +100,7 @@ body{
     margin-bottom:20px ;
 }
 .aside{
+    margin-left:20px ;
     display:inline-block;
     vertical-align: top;
     border-radius: 2px;
@@ -118,14 +124,9 @@ body{
     border-radius: 2px;
     width: 189px;
     height: 36px;
-
+    margin-left: 30px;
 }
-.row {
 
-    /* display: flex;
-    gap: 20px; 
-    align-items: center;  */
-}
 .content h5{
     font-family: Manrope;
     font-weight: 500;
@@ -138,11 +139,15 @@ body{
 
 
   .sidebar{
-    width: 1597px;
-    height: 801px;
+    width: 1700px;
+    height: 901px;
     background-color: #141414;
+    border-radius: 10px;
+    margin: 20px;
 }
 .sidebar h6{
+    margin-top: 20px;
+    margin-left: 20px;
     font-family: Manrope;
     font-weight: 700;
     font-size: 38px;
@@ -151,6 +156,7 @@ body{
     padding-bottom: 20px;
 }
 .sidebar p{
+    margin-left: 20px;
     font-family: Manrope;
     font-weight: 400;
     font-size: 18px;
@@ -159,6 +165,16 @@ body{
     padding-bottom: 80px;
 }
 .blocks{
+background: 
+        linear-gradient(
+            230deg,
+            rgba(229, 0, 0, 0.1) 0%,   /* початок прозорий червоний */
+            rgba(229, 0, 0, 0) 81.37%  /* кінець повністю прозорий */
+        ),
+        #141414;
+
+    margin: 20px;
+    text-align: left; 
     display:inline-block;
     vertical-align: top;
     border: 1px solid #000;
@@ -205,9 +221,20 @@ body{
     color: rgb(85, 82, 82);
 }
 .blocks-container{
-     font-size: 0;        
+     font-size: 0px;
+     margin: 20px;
+     text-align: left; 
 }  
    
 
+.task_1{
+    margin: 30px;
 
+}
+.task_2{
+    margin: 30px;
+}
+.task_3{
+    margin: 30px;
+}
 
