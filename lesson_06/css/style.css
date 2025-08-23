@@ -1,0 +1,233 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Epilogue:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,400,500,700,800);
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular);
+* {
+    /* border: 1px dashed #ffffff; */
+}
+
+
+
+body {
+    background-color: #1e1e1e;
+    padding-inline: 20px;
+    font-family: Manrope;
+    color: white;
+}
+.task_1{
+    margin-block-end: 50px;
+    
+    
+}
+
+.font {
+    width: 1920px;
+    margin: 0 auto;
+    position: relative; 
+    overflow: hidden;
+    background-color: #141414;
+}
+
+.img {
+    position: relative;
+}
+
+.img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0) 80%), 
+        linear-gradient(0deg, #141414 0%, rgba(20, 20, 20, 0) 80%);   
+    pointer-events: none; 
+}
+.photo{
+    width: 470px;
+    height: 470px;
+    position: absolute;  
+    top: 50%;            
+    left: 50%;           
+    width: 470px;       
+    height: 470px;
+    transform: translate(-50%, -50%); 
+    z-index: 2;
+    opacity: 0.5;          
+}
+
+.content {
+    margin-block-start: -65px;
+    position: relative; 
+    z-index: 1;
+}
+
+.font h1 {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 150%;
+    text-align: center;
+    margin-block-end: 14px;
+}
+
+.font p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--grey-60);
+    margin-block-end: 68px;
+}
+
+.button {
+    background-color: red;
+    border-radius: 8px;
+    padding: 18px;
+    width: 260px;
+    height: 64px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-block-end:20px ;
+    border-color:  transparent;
+}
+
+.button:hover{
+    border: 2px solid #dda8a8 ;
+    transition: all 0.2s;
+}
+
+.button span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+
+.task_2{
+   margin-block-end: 50px;
+}
+.info{
+    width: 1170px;
+    background-color: white;
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+    padding-inline-start: 10px;
+}
+.info h2{
+    font-family: DM+Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    color: #ef6d58;
+    margin-block-end:20px ;
+}
+.info h3{
+    width: 397px;
+    font-family: Epilogue;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 114%;
+    letter-spacing: -0.02em;
+    color: #391400;
+    margin-block-end: 26px;
+}
+.info p{
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #391400;
+    width:470px ;
+}
+.block{
+    margin-block-end: 16px;
+}
+.block p{
+    display: inline;
+    vertical-align: top;
+    margin-inline-start: 16px;
+}
+.img3{
+    display: inline-block;
+    vertical-align: top;
+}
+.text{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.task_3{
+    margin-block-end: 50px;
+}
+.box{
+    width: 1200px;
+    height: 544px;
+    background-color: #ef6d58;
+    padding: 96px 80px;
+}
+.box h4{
+    width: 368px;
+    font-family: DM+Sans;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 114%;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-block-end: 28px;
+}
+.box p{
+    width: 470px;
+    font-family: DM+Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #f9cac3;
+    margin-block-end: 34px;
+}
+.buttom_2{
+    width: 160px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 18px 23px;
+    border-color: transparent;
+}
+.buttom_2:hover{
+    border:2px solid #ca12b2 ;
+    transition: all 0.2s;
+}
+
+.buttom_2 h5{
+    font-family: DM+Sans;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #391400;
+    
+}
+.block-info{
+    display: inline-block;
+    vertical-align: top;
+}
+.picture{
+    display: inline-block;
+    vertical-align: top;
+    margin-inline-start: 56px;
+}
