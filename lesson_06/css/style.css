@@ -9,15 +9,14 @@
 
 
 
-body {
-    background-color: #1e1e1e;
-    padding-inline: 20px;
+body {    
     font-family: Manrope;
     color: white;
+    background-color: #1e1e1e;
 }
 .task_1{
     margin-block-end: 50px;
-    
+    background-color: #1e1e1e;
     
 }
 
@@ -115,8 +114,11 @@ body {
 }
 
 
-.task_2{
+.task_2{ 
+    margin: 0 auto;
+    width: 1920px;
    margin-block-end: 50px;
+   background-color: #fff;
 }
 .info{
     width: 1170px;
@@ -125,6 +127,8 @@ body {
     display: inline-block;
     vertical-align: top;
     padding-inline-start: 10px;
+    margin: 0 auto;
+    display: block;
 }
 .info h2{
     font-family: DM+Sans;
@@ -173,13 +177,18 @@ body {
 
 
 .task_3{
+    margin:0 auto;
+    width: 1920px;
     margin-block-end: 50px;
+    background-color: #ef6d58;
 }
 .box{
     width: 1200px;
     height: 544px;
     background-color: #ef6d58;
     padding: 96px 80px;
+    margin: 0 auto;
+    display: block;
 }
 .box h4{
     width: 368px;
