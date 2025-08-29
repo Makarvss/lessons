@@ -9,8 +9,8 @@
 
 
 
-body {    
-    font-family: Manrope;
+/* body {    
+    font-family: "Manrope", sans-serif;
     color: white;
     background-color: #1e1e1e;
 }
@@ -21,7 +21,8 @@ body {
 }
 
 .font {
-    width: 1920px;
+    inline-size: 100%;
+    max-inline-size: 1920px;
     margin: 0 auto;
     position: relative; 
     overflow: hidden;
@@ -35,7 +36,6 @@ body {
 .img img {
     display: block;
     width: 100%;
-    height: auto;
 }
 
 .img::after {
@@ -48,16 +48,12 @@ body {
     background:
         linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0) 80%), 
         linear-gradient(0deg, #141414 0%, rgba(20, 20, 20, 0) 80%);   
-    pointer-events: none; 
 }
 .photo{
     width: 470px;
-    height: 470px;
     position: absolute;  
     top: 50%;            
-    left: 50%;           
-    width: 470px;       
-    height: 470px;
+    left: 50%;
     transform: translate(-50%, -50%); 
     z-index: 2;
     opacity: 0.5;          
@@ -116,19 +112,16 @@ body {
 
 .task_2{ 
     margin: 0 auto;
-    width: 1920px;
    margin-block-end: 50px;
    background-color: #fff;
 }
 .info{
-    width: 1170px;
+    max-width: 1170px;
     background-color: white;
     color: #000;
-    display: inline-block;
-    vertical-align: top;
-    padding-inline-start: 10px;
-    margin: 0 auto;
     display: block;
+    padding: 50px;
+    margin: 0 auto;
 }
 .info h2{
     font-family: DM+Sans;
@@ -168,19 +161,18 @@ body {
 }
 .img3{
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
 }
 .text{
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 
 .task_3{
-    margin:0 auto;
-    width: 1920px;
+    
     margin-block-end: 50px;
-    background-color: #ef6d58;
+    
 }
 .box{
     width: 1200px;
@@ -239,4 +231,219 @@ body {
     display: inline-block;
     vertical-align: top;
     margin-inline-start: 56px;
+} */
+
+
+body{
+    background-color: #201e1e;
+    color: white;
 }
+.task_1{
+     display: block;
+    text-align: center;           
+    inline-size: 100%;
+    width: 100%;
+    
+    font-family: "Manrope",sans-serif;
+    font-size: 0;
+    background-color:#141414;
+    /* inline-size: 100%; */
+    /* max-inline-size: 1920px; */
+    margin: 0 auto;
+    margin-block-end: 20px;
+}
+.font{
+    background-color: #141414;
+}
+.info-text {
+   display: block;
+  
+}
+.img {
+    background-image:
+    url(../img/трикутние\ в\ крузі.png) , 
+    linear-gradient(0deg, #1a1a1a 0%, rgba(26, 26, 26, 0.9) 25%, rgba(26, 26, 26, 0.7) 52%, rgba(26, 26, 26, 0.6) 68%, rgba(26, 26, 26, 1) 100%),
+     url(../img/Sub\ Container.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center, top;
+    background-size: 30%, auto 1092px, cover;
+    min-inline-size: 100%;
+    min-height: 882px;
+    padding-inline: 15px;
+    text-align: center;
+
+    inline-size: 100%;
+    padding-inline: 15px;
+    text-align: center;
+}
+
+   
+
+img{
+   
+}
+
+.content{
+    margin: 0 auto;
+    width: 1096px;
+}
+.content h1{  
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    margin-block-end:14px ;
+}
+.content p{
+    
+    margin-block-end: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+.button{
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 18px 24px;
+    width: 251px;
+    height: 64px;
+    background: red;
+}
+.button span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+
+}
+
+
+.task_2{ 
+    display: block;
+    text-align: center;           
+    inline-size: 100%;
+    width: 100%;
+   margin-block-end: 50px;
+   background-color: #fdf0e9;
+}
+.text{
+    display: inline-block;
+    vertical-align: middle;
+}
+.info{
+    max-width: 1170px;
+    background-color: #fdf0e9;
+    color: #000;
+    display: block;
+    padding: 50px;
+    margin: 0 auto;
+}
+.info h2{
+    font-family: DM+Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #ef6d58;
+    margin-block-end:20px ;
+}
+.info h3{
+    width: 397px;
+    font-family: Epilogue;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 114%;
+    color: #391400;
+    margin-block-end: 26px;
+}
+.info p{
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #391400;
+    width:470px ;
+    margin-block-end: 26px;
+}
+.block{
+    margin-block-end: 16px;
+}
+.block p{
+    display: inline;
+    vertical-align: top;
+    margin-inline-start: 16px;
+}
+.img3{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.task_3{
+    
+    display: block;
+    text-align: center;           
+    inline-size: 100%;
+    width: 100%;
+    background-color: #ef6d58;
+}
+.box{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 1920px;
+    background-color: #ef6d58;
+    padding: 96px 80px;
+    
+}
+.box h4{
+    width: 368px;
+    font-family: DM+Sans;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 114%;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-block-end: 28px;
+}
+.box p{
+    width: 470px;
+    font-family: DM+Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #f9cac3;
+    margin-block-end: 34px;
+}
+.buttom_2{
+    width: 160px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 18px 23px;
+    border-color: transparent;
+}
+.buttom_2:hover{
+    border:2px solid #ca12b2 ;
+    transition: all 0.2s;
+}
+
+.buttom_2 h5{
+    font-family: DM+Sans;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #391400;
+    
+}
+.block-info{
+    
+    display: inline-block;
+    vertical-align: top;
+}
+.picture{
+    display: inline-block;
+    vertical-align: top;
+    margin-inline-start: 56px;
+} 
