@@ -1,0 +1,241 @@
+@import url("reset.css");
+
+
+@import url(https://fonts.googleapis.com/css?family=Epilogue:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,regular,500,600,700,900);
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    /* border: 1px dashed #ffffff; */
+}
+ 
+
+
+
+.task_1{
+    background: #141414;
+    margin: 0 auto;
+    width: 800px;
+    margin-bottom: 30px;
+}
+.box_text{
+    margin: 40px;
+    background-color: #e4e4e6;
+    width: 700px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.box{
+    background-color: #fff;
+    padding: 32px;
+    width: 550px;
+    border-radius: 6px;
+}
+.box:not(:last-child){
+    margin-bottom: 40px;
+}
+.box:hover{
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #a53dff;
+    }
+.box h1{
+    background-color: #fff;
+    padding-block-end: 16px;
+    font-family: Poppins ;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #132238;
+}
+.box p{
+    background-color: #fff;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #424e60;
+}
+
+
+
+.task_2{
+    background-color: #fff;
+    border-radius: 56px;
+    width: 542px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.task_2:hover{
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.9);
+}
+.cast{
+    border-radius: 34px;
+    width: 494px;
+    background-color: #4A3AFF;
+    padding-block-end: 44.59px;
+    padding-block-start: 44.59px;
+    padding-inline-start: 139.99px;
+    padding-inline-end: 139.99px;
+    margin-bottom: 33.83px;
+    margin: 0 auto;
+}
+.cast h1{
+    font-family: DM+Sans;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 107%;
+    text-align: center;
+    color: #edebff;
+}
+.cast h2{
+    font-family: DM+Sans;
+    font-weight: 700;
+    font-size: 116px;
+    line-height: 103%;
+    text-align: center;
+    color: #fff;
+}
+.cast h3{
+    font-family: DM+Sans;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 110%;
+    text-align: center;
+    color: #b7b0ff;
+}
+.list{
+    margin-left: 30.99px;
+}
+.list_item{
+    font-family: DM+Sans;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 136%;
+    color: #1e1b39;
+}
+.list_item:not(:last-child){
+    margin-bottom: 26px;
+}
+.list_item::before{
+    vertical-align: middle;
+    content: "";
+    width: 35px;
+    height: 55px;
+    background: url(../img/Check\ Circle\ Icon.png) 0 0 / 30px no-repeat;
+
+    margin-right: 14px;
+    margin-bottom: -20px;
+}
+
+
+
+
+
+.task_3{
+    display: block;
+    text-align: center;           
+    inline-size: 100%;
+    width: 100%;
+    min-inline-size: 100%;
+    background: #fdf0e9;
+}
+.photo{
+  margin-block-end: 74px; 
+}
+.content{
+    max-width:570px ;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.content h1{
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #391400;
+    margin-block-end: 32px;
+}
+.content p{
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #7f6454;
+    margin-block-end: 51px;
+}
+.content h2{
+    font-family: Epilogue;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    color: #391400;
+    margin-block-end: 35px;
+}
+.content li{
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #391400;
+
+}
+.kum li::before{
+    margin-right: 16px;
+    vertical-align: middle;
+    width: 10px;
+    height: 15px;
+    content: "";
+    background: url(../img/Oval.png) 0 0 / 10px no-repeat;
+}
+.ok{
+    margin-bottom: 32px;
+}
+.content h3{
+    font-family:Epilogue;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    color: #391400;
+    margin-bottom: 35px;
+} 
+.ol {
+  list-style-type: decimal; /* стандартная нумерация */
+  padding-left: 20px;
+}
+.picture{
+    border-radius: 6px;
+    width: 570px;
+    height: 176px;
+    background: #f9e5da;
+    padding-block-start: 42px;
+    padding-block-end: 32px;
+    
+}
+.picture img,
+.picture p {
+    display: inline-block;
+    vertical-align: middle; 
+}
+.picture img{
+    padding-inline: 32px;
+    margin-bottom: 120px;
+}
+.picture p{
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color:#291400;
+    width: 426px;
+}
+
+.last{
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #7f6454;
+    padding-block: 76px;
+}
