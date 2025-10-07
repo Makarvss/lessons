@@ -6,7 +6,7 @@
 @import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
 * {
-    /* border: 1px dashed #ffffff; */
+    border: 1px dashed #000; 
 }
 
 body {
@@ -142,10 +142,11 @@ body {
 
 .task_3{
   font-family: "Epilogue";
-
     /* display: block; */
     /* display: none; */
     background: #fdf0e9;
+    margin-block-end: 50px;
+    padding-block: 60px;
 }
 .photo{
   margin-block-end: 74px; 
@@ -153,7 +154,8 @@ body {
 .photo img{
     display: block;
     margin: 0 auto;
-
+    width: 100%;
+    max-width: 970px;
 }
 .content{
     max-width:570px ;
@@ -161,26 +163,61 @@ body {
     text-align: left;
 }
 
+.text1{
+    margin-block-end: 32px;
+}
+.text2{
+    margin-block-end:51px ;
+}
+
+.text3{
+    margin-block-end: 35px;
+}
+.text4{
+    margin-block-end: 34px;
+}
+.ok{
+    margin-block-end: 32px;
+}
+.text6{
+    margin-block-end: 65px;
+}
+.text7{
+    margin-block-end: 32px;
+}
+.text8{
+    margin-block-end: 28px;
+}
+.last_list{
+    margin-block-end: 32px;
+}
+.text9{
+    margin-block-end: 69px;
+}
+ .picture{ 
+    margin-block-end: 76px;
+} *
+
 .content h1{
     font-weight: 400;
     font-size: 20px;
     line-height: 160%;
     color: #391400;
-    margin-block-end: 32px;
+    
 }
 .content p{
     font-weight: 400;
     font-size: 16px;
     line-height: 200%;
     color: #7f6454;
-    margin-block-end: 51px;
+
 }
 .content h2{
     font-weight: 700;
     font-size: 24px;
     line-height: 133%;
     color: #391400;
-    margin-block-end: 35px;
+    
 }
 .content li{
     font-weight: 400;
@@ -202,50 +239,47 @@ ul.kum{
     content: "";
     
 } 
-.ok{
-    margin-bottom: 32px;
-}
+
 .content h3{
     font-family:Epilogue;
     font-weight: 700;
     font-size: 24px;
     line-height: 133%;
     color: #391400;
-    margin-bottom: 35px;
+    
 } 
 .ol {
   list-style-type: decimal; /* стандартная нумерация */
   padding-left: 20px;
 }
-.list2{
-    margin-block-end: 34px;
-}
+
 .picture{
     border-radius: 6px;
-    width: 570px;
-    height: 176px;
     background: #f9e5da;
-    padding-block-start: 42px;
-    padding-block-end: 32px;
-    
+    max-width: 570px;
+    padding: 42px 32px 32px 112px;
+
 }
-.picture img,
-.picture p {
+
+.picture_text::before{
+    content: "";
+    background:url(../img/Shape.png)  0 0 / 48px no-repeat ;
+    width: 48px;
+    height: 36px;
     display: inline-block;
-    vertical-align: middle; 
+    vertical-align: middle;
+    margin-right: 32px;
+    margin-left: -77px;
 }
-.picture img{
-    padding-inline: 32px;
-    margin-bottom: 120px;
-}
+
 .picture p{
     font-family: Epilogue;
     font-weight: 400;
     font-size: 20px;
     line-height: 160%;
     color:#291400;
-    width: 426px;
 }
+
 
 .last{
     font-family: Epilogue;
@@ -253,7 +287,6 @@ ul.kum{
     font-size: 16px;
     line-height: 200%;
     color: #7f6454;
-    padding-block: 76px;
 }
 
 
@@ -261,12 +294,18 @@ ul.kum{
 
 
 .task_4{
+    border: 1px dashed #000;
+
     font-family: var(--font-family);
     font-family: "DM Sans";
+    background-color: #e9e7d4;
+}
+.block_max {
     max-width: 629px;
     margin: 0 auto;
-    min-height: 762px;
-}
+    background-color: #fff;
+    
+ }
 
 p.link{
     font-weight: 700;
@@ -288,6 +327,7 @@ h1.titile{
     margin-block-end: 54px;
     padding: 15px;
     border-radius: 10px;
+    
 }
 .block_1 h1.titile::after{
     content: "";
