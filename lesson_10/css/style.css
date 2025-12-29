@@ -29,7 +29,7 @@ header{
      max-width: 1600px;
      margin: 0 auto;
      border-radius: 15px;
-     min-height: 1700px;
+     min-height: 100px;
      background-color: #4a4c64;
 }
 
@@ -184,18 +184,17 @@ header{
      border-radius: 10px;
      background-color: #28293e;
      position: absolute; 
-}
-
-.content__task2 .photo1 {
      display: inline-block;
      vertical-align: middle;
      padding-inline: 16px;
      padding-block: 96px;
 }
+
+
 .text{
      position: absolute;
      z-index: 6;
-     bottom: 150px;
+     bottom: 51px;
      padding-left: 40px;
 }
 .button1{
@@ -207,6 +206,13 @@ header{
      text-align: center;
      padding: 10px 6px 10px;
      margin-bottom: 23px;
+}
+.photo1,.photo2,.photo3 {
+     display: inline-block;
+     vertical-align: top;
+     position: relative;
+     margin: 0 16px;
+     margin-bottom: 20px;
 }
 
 .title_img{
