@@ -29,7 +29,7 @@ header{
      max-width: 1600px;
      margin: 0 auto;
      border-radius: 15px;
-     min-height: 2300px;
+     min-height: 1800px;
      background-color: #4a4c64;
 }
 
@@ -231,5 +231,6 @@ footer{
      position: fixed;
      width: 100%;
      bottom: 0;
+     z-index: 7;
 }
 
