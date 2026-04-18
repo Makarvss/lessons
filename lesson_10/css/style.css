@@ -127,11 +127,74 @@ font-size: 20px;
 
 
 .content__task1{
-margin-bottom: 100px;
+     min-width: 1300px;
+     background-color: #28293e;
+     position: relative;
+     margin-bottom: 300px;
+     border-radius: 20px;
+}
+.text__task1{
+     padding: 135px;
+}
+.Modern_Studio{
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 200%;
+     letter-spacing: 0.19em;
+     text-transform: uppercase;
+     color: #ef6d58;
+     margin-bottom: 24px;
+}
+.title{
+     font-weight: 800;
+     font-size: 72px;
+     line-height: 111%;
+     letter-spacing: -0.03em;
+     color: #fff;
+     max-width: 513px;
+     margin-bottom: 24px;
+}
+.subtitle2{
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 200%;
+     color: #b1b2b9;
+     width: 470px;
+     margin-bottom: 34px;
+}
+.button{
+     display: inline-block;
+}
+.orange-button{
+     font-weight: 900;
+     font-size: 14px;
+     text-transform: uppercase;
+     text-align: center;
+     color: #fff;
+     width: 154px;
+     height: 48px;
+     background-color: #ef6d58;
+     line-height: 50px;
+     border-radius: 10px;
+     margin-right: 45px;
+}
+.invisible{
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 200%;
+     color: #fff;
 }
 
+
+
+.content1{
+     position: absolute;
+     right: 200px;
+     top: 200px;
+}
 .content1__mother{
      position: relative;
+
 }
 .circle{
      position: relative;
@@ -235,9 +298,11 @@ margin-bottom: 100px;
 
 
 .content__task2{
+     border-radius: 20px;
+     padding: 50px;
      background-color: #28293e;
      margin: 0 auto;
-     max-width:  1500px;
+     max-width:  1555px;
 
 }
 .text{
@@ -275,11 +340,11 @@ margin-bottom: 100px;
      color: #fff;
 }
 
+
 .photo{
-     padding: 5px;
+     padding: 15px;
      position: relative;
      display: inline-block;
-     
 }
 .desing{
      position: absolute;
