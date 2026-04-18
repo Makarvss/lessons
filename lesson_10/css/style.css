@@ -127,14 +127,15 @@ font-size: 20px;
 
 
 .content__task1{
-     min-width: 1300px;
      background-color: #28293e;
      position: relative;
      margin-bottom: 50px;
      border-radius: 20px;
 }
 .text__task1{
-     padding: 135px;
+     vertical-align: middle;
+     display: inline-block;
+     padding: 135px; 
 }
 .Modern_Studio{
      font-weight: 400;
@@ -188,9 +189,10 @@ font-size: 20px;
 
 
 .content1{
-     position: absolute;
-     right: 200px;
-     top: 200px;
+     vertical-align: middle;
+     display: inline-block;
+     margin-left: 100px;
+     margin-bottom: 100px;
 }
 .content1__mother{
      position: relative;
@@ -198,7 +200,6 @@ font-size: 20px;
 }
 .circle{
      position: relative;
-     margin: 0 auto;
      width: 370px;
      height: 370px;
      border-radius: 50%;
@@ -318,7 +319,9 @@ font-size: 20px;
      color: #fdf0e9;
      padding-bottom: 20px;
 }
+
 .Latest_Work{
+     display: inline-block;
      font-weight: 800;
      font-size: 56px;
      line-height: 114%;
@@ -326,7 +329,8 @@ font-size: 20px;
      color: var(--text-light);
 }
 .Explore_More{
-     position: absolute;
+     display: inline-block;
+     margin-left: 659px;
      top: 170px;
      right: 134px;
      border-radius: 10px;
